@@ -562,7 +562,7 @@
           function isQuizTimeValid() {
               const now = new Date();
               const hour = now.getHours();
-              return hour >= 1 && hour < 6; // 7 PM to 8 PM
+              return hour >= 00 && hour < 6; // 7 PM to 8 PM
           }
 
           // تحديث حالة زر البدء وعرض الرسائل
